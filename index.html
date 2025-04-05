@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-31Q5KEZ4C6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-31Q5KEZ4C6');
+    </script>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>HAPPY TALK </title>
@@ -44,29 +52,8 @@
             </div>
             <div class="category-buttons" id="category-buttons"></div>
         </div>
-        <!-- Room Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full" id="room-grid">
-            <!-- Room 1-15 (Existing Rooms) -->
-            <!-- Room 1 -->
-            <div class="room-card">
-                <div class="flex justify-between items-center">
-                    <div class="text-xl font-bold room-title">English</div>
-                    <div><i class="fas fa-microphone text-yellow-500"></i></div>
-                </div>
-                <div class="people-row mt-3">
-                    <img class="profile-pic" src="https://randomuser.me/api/portraits/women/65.jpg"/>
-                    <img class="profile-pic premium" src="https://randomuser.me/api/portraits/women/45.jpg"/>
-                    <img class="profile-pic" src="https://randomuser.me/api/portraits/women/35.jpg"/>
-                    <img class="profile-pic" src="https://randomuser.me/api/portraits/women/15.jpg"/>
-                    <img class="profile-pic" src="https://randomuser.me/api/portraits/men/75.jpg"/>
-                </div>
-                <div class="flex justify-between items-center mt-3">
-                    <button class="bg-[#1e90ff] px-4 py-2 rounded-full text-base join-room" onclick="window.open('https://meet.jit.si/EnglishRoom', '_blank')">JOIN</button>
-                    <i class="fas fa-share-alt text-gray-400 text-lg"></i>
-                </div>
-            </div>
-            
-            <!-- Room 2 -->
+    </div>
+      <!-- Room 2 -->
             <div class="room-card">
                 <div class="flex justify-between items-center">
                     <div class="text-xl font-bold room-title">Spanish</div>
