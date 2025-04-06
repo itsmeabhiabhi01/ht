@@ -257,7 +257,7 @@ youtubeSearchInput.addEventListener('keypress', (e) => {
 
 function searchYouTube(query) {
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(query)}&key=${API_KEY}`;
-    
+
     fetch(url)
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
